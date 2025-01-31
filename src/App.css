@@ -1,0 +1,11 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
