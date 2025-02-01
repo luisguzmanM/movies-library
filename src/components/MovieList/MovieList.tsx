@@ -15,8 +15,9 @@ export const MovieList = () => {
     if (loading) return;
     setLoading(true);
 
-    const response = await fetch("/data.json");
+    const response = await fetch("/movies-library/data.json");
     const dataJson = await response.json();
+    console.log('hey', dataJson)
 
     const startIndex = (newPage - 1) * 20;
     const newMovies = dataJson.data.slice(startIndex, startIndex + 20);
