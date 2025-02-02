@@ -10,7 +10,7 @@ export const MovieDetail = () => {
   const navigate = useNavigate();
 
   const fetchMovieDetails = async () => {
-    const response = await fetch(`/data.json`);
+    const response = await fetch(`/movies-library/data.json`);
     const dataJson = await response.json();
     const movieData = dataJson.data.find((movie: Movie) => movie.id === Number(id));
     const similarMoviesData = await getSimilarMovies(dataJson.data, movieData);
