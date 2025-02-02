@@ -18,3 +18,5 @@ Version Control: Git & GitHub
 This project is open-source and available under the MIT License.
 
 🚀 Developed by Luis Guzmán
+
+You can see the project deployed in https://luisguzmanm.github.io/movies-library/
