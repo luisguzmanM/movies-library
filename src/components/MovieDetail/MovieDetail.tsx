@@ -27,7 +27,7 @@ export const MovieDetail = () => {
   }, [id]);
 
   if (!movie) {
-    return <div>Loading movie details...</div>;
+    return <div className='h-screen flex justify-center'>Loading movie details...</div>;
   }
 
   return (
